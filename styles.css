@@ -223,6 +223,7 @@ footer{
     }
     .page-showcase{
         padding: 1em;
+        padding-top: 3em;
         justify-content: center;
     }
     .page-showcase .showcase-row{
@@ -234,6 +235,7 @@ footer{
     .page-showcase .showcase-row .card{
         align-content: center;
         margin: 1.25em;
+        margin-top: 2em;
     }
 }
 
@@ -252,6 +254,7 @@ footer{
     }
     .page-category{
         padding: 1em;
+        padding-top: 3em;
         margin-top: 3em;
     }
     .page-category .category-box{
