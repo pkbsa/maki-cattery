@@ -15,7 +15,7 @@
     font-size: 28px;
 }
 .navbar{
-    padding: 2em 5em 2em 5em;
+    padding: 2em 4.5em 2em 4.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -31,6 +31,9 @@
     background-size: cover;
     background-position-y: top;
     background-position-x: right;
+}
+.container-fluid{
+    padding: 0;
 }
 .my-container{
     margin: 2em 0em 2em 0em;
