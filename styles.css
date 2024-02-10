@@ -5,6 +5,10 @@
 } */
 
 /* PAGE HOME */
+#logo{
+    height: 70px;
+    margin-right: 0.5em;
+}
 #maki-cattery{
     font-family: 'Inter', sans-serif;
     font-weight: 'Extra-bold';
