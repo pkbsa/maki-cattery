@@ -29,7 +29,8 @@
     background-image: url('assets/pagehome-bg.png');
     background-repeat: none;
     background-size: cover;
-
+    background-position-y: top;
+    background-position-x: right;
 }
 .my-container{
     margin: 2em 0em 2em 0em;
