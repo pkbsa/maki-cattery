@@ -1,0 +1,117 @@
+/* *{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Volkhov', serif;
+} */
+
+/* PAGE HOME */
+#maki-cattery{
+    font-family: 'Inter', sans-serif;
+    font-weight: 'Extra-bold';
+    font-size: 28px;
+}
+.navbar{
+    padding: 2em 5em 2em 5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: transparent!important;
+}
+.nav-item{
+    padding: 0em 2em;
+}
+.page-home{
+    min-height: 80vh;
+    background-image: url('assets/pagehome-bg.png');
+    background-repeat: none;
+    background-size: cover;
+
+}
+.my-container{
+    margin: 2em 5em 2em 5em;
+    padding: 2em;
+    width: 100vw;
+}
+#above{
+    color: #DF6951;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 'Bold';
+    font-size: 1.5em;
+}
+#title{
+    font-family: 'Volkhov', serif;
+    font-weight: 'Bold';
+    font-size: 5em;
+    color: #181E4B;
+}
+#text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 'Medium';
+    font-size: 1em;
+    color: #5E6282;
+}
+#explore{
+    background-color: #8786C2;
+    padding: 1.5em 4em;
+    border: #8786C2;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 'Medium';
+}
+#maki{
+    color: #686D77;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 'Medium';
+}
+
+/* PAGE CATEGORY */
+.page-category{
+    min-height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 8em 2em 8em;
+
+}
+#page-category-bg{
+    position: absolute;
+    width: 300px;
+    right: 2em;
+}
+#highlight-box{
+    background-image: url('assets/page-category-box.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.head-page{
+    font-size: 1.3em;
+}
+.description-page{
+    font-family: 'Volkhov', serif;
+    font-weight: 'Bold';
+    font-size: 2.5em;
+}
+
+.category-box{
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    margin: 2.5em;
+    border-radius: 30px;
+}
+.category-box img{
+    width: fit-content;
+    margin-top: 3em;
+}
+.category-box h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+
+}
+.category-box p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 'Medium';
+    font-size: 0.9em;
+    margin-bottom: 3em; 
+}
