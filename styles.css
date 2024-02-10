@@ -80,6 +80,8 @@
 
 /* PAGE CATEGORY */
 .page-category, .page-showcase{
+    position: relative;
+
     min-height: 40vh;
     text-align: center;
     display: flex;
@@ -91,6 +93,14 @@
     position: absolute;
     width: 300px;
     right: 2em;
+    z-index: 0;
+}
+#page-category-bg-2{
+    position: absolute;
+    width: 250px;
+    left: 2em;
+    z-index: 0;
+    top:0;
 }
 #highlight-box{
     background-image: url('assets/page-category-box.png');
@@ -99,11 +109,15 @@
 }
 .head-page{
     font-size: 1.3em;
+    position: relative;
+    z-index: 1;
 }
 .description-page{
     font-family: 'Volkhov', serif;
     font-weight: 'Bold';
     font-size: 2.5em;
+    position: relative;
+    z-index: 1;
 }
 
 .category-box{
@@ -245,6 +259,9 @@ footer{
     }
     #title{
         font-size: 2.5em!important;
+    }
+    .description-page{
+     font-size: 2em;
     }
     .my-container{
         padding: 2em 0em 2em 2em;
