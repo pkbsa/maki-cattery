@@ -100,7 +100,7 @@
     width: 250px;
     left: 2em;
     z-index: 0;
-    top:0;
+    top: 0;
 }
 #highlight-box{
     background-image: url('assets/page-category-box.png');
@@ -143,25 +143,29 @@
     margin-bottom: 3em; 
 }
 
-.page-showcase .showcase-row{
+.showcase-row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+
     justify-content: center;
     padding: 2em;
 }
 .card{
-    max-height: 400px;
-    max-width: 350px;
+    height: 400px;
+    width: 300px!important;
     margin: 1em;
     margin-top: 0;
     margin-bottom: 0;
     border: 0;
     background-color: white;
     border-radius: 20px;
+
 }
 .card img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    width: 300px!important;
 
 }
 .card-body{
@@ -216,6 +220,24 @@ footer{
     height: 50px;
 }
 
+.contact{
+    padding: 2em 6em;
+}
+iframe{
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.contact-box{
+    background-color: whitesmoke;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.contact .col-4{
+    padding: 0;
+}
 @media screen and (max-width: 1500px) {
     #title{
         font-size: 3em!important;
@@ -240,13 +262,13 @@ footer{
         padding-top: 3em;
         justify-content: center;
     }
-    .page-showcase .showcase-row{
+    .showcase-row{
         margin-top: 1em;
         flex-direction: column;
         align-items: center;
         padding: 0;
     }
-    .page-showcase .showcase-row .card{
+    .showcase-row .card{
         align-content: center;
         margin: 1.25em;
         margin-top: 2em;
