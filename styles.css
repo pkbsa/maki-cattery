@@ -64,6 +64,9 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 'Medium';
 }
+#cat{
+    width: 100%;
+}
 
 /* PAGE CATEGORY */
 .page-category{
@@ -71,7 +74,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin: 2em 8em 2em 8em;
+    padding : 2em 8em 2em 8em;
 
 }
 #page-category-bg{
@@ -114,4 +117,28 @@
     font-weight: 'Medium';
     font-size: 0.9em;
     margin-bottom: 3em; 
+}
+
+@media screen and (max-width: 600px) {
+    #title{
+        font-size: 3em;
+    }
+    .my-container{
+        padding: 2em 0em 2em 4em;
+    }
+    .my-container{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    #title{
+        font-size: 3em;
+    }
+    #above{
+        font-size: 1.3em;
+    }
+    #text{
+        font-size: 0.8em;
+    }
 }
